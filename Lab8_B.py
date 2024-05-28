@@ -2,6 +2,7 @@ from Lab8_Class import *
 import sqlite3
 OD = OopDesign()
 
+#try lang
 
 def main(user):
     # ------------------------------------- Window Initialization with Scrollbar:------------------------------------ #
