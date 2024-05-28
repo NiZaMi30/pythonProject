@@ -4,6 +4,7 @@ from Lab8_C import main_call as lab_c
 from Lab8_D import main_call as lab_d
 from Lab8_AdminPage import main_call as admin
 #   This comment was added to test GitHub Push Feature
+#   This comment was added to test Github Pull
 
 
 def admin_loop(info):
