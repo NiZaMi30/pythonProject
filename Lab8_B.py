@@ -12,19 +12,19 @@ def main(user):
      address_frame, bot_frame) = frame_startup_b(sub_frame)
 
     # ------------------ Heading ------------------ #
-    OD.new_frame(heading_frame, 0, 10, 1166, 15, "#C8A079")
-    OD.new_frame(heading_frame, 50, 30, 1066, 15, "#C8A079")
-    OD.new_frame(heading_frame, 50, 230, 1066, 15, "#C8A079")
-    OD.new_frame(heading_frame, 0, 250, 1166, 15, "#C8A079")
-    OD.new_label_title(heading_frame, "ORATRICE'S EMPLOYEE \nPERSONAL INFORMATION", 583, 130)
+    OD.new_frame(heading_frame, 0, 10, 1166, 15, "#28f7ce")
+    OD.new_frame(heading_frame, 50, 30, 1066, 15, "#185448")
+    OD.new_frame(heading_frame, 50, 230, 1066, 15, "#185448")
+    OD.new_frame(heading_frame, 0, 250, 1166, 15, "#7eccbc")
+    OD.new_label_title(heading_frame, "Bank Information", 583, 130)
 
     # ------------------ Basic Info ------------------ #
     OD.new_frame(info_frame, 50, 30, 200, 200, "#555555")
     OD.new_image(info_frame, "Resources/Dark Furina.png", 53, 33, 190, 190)
 
-    first_name_entry = OD.new_label_entry(info_frame, "First Name", 280, 80, 22)
-    middle_name_entry = OD.new_label_entry(info_frame, "Middle Name", 550, 80, 15)
-    last_name_entry = OD.new_label_entry(info_frame, "Last Name", 750, 80, 20)
+    first_name_entry = OD.new_label_entry(info_frame, "First Name", 280, 70, 22)
+    middle_name_entry = OD.new_label_entry(info_frame, "Middle Name", 550, 70, 15)
+    last_name_entry = OD.new_label_entry(info_frame, "Last Name", 750, 70, 20)
     suffix_entry = OD.new_label_entry(info_frame, "Suffix", 1000, 80, 8)
 
     date_of_birth_calendar = OD.new_label_calendar(info_frame, "Date of Birth", 280, 170, 25)
@@ -58,7 +58,7 @@ def main(user):
     city_entry = OD.new_label_entry(address_frame, "City/Municipality", 50, 130, 50)
     state_entry = OD.new_label_entry(address_frame, "State/Province", 625, 130, 43)
     country_option, co_var = OD.new_label_option(window, address_frame, "Country", 50, 190, 57,
-                                                 ["Philippines", "Others"])
+                                                 ["Philippines","Singapore", "Japan", "Thailand", "Others"])
     zip_code_entry = OD.new_label_entry(address_frame, "Zip Code", 625, 190, 43)
     path_entry = OD.new_label_entry(address_frame, "Picture path", 50, 250, 95)
 
@@ -110,9 +110,9 @@ def main(user):
                 clear_data(items)
 
     # ------------------ Buttons ------------------ #
-    OD.new_command_button(bot_frame, "Save", 0, 10, "WHITE", "#38688F", 15, 2, upload_to_db)
-    OD.new_command_button(bot_frame, "Cancel", 150, 10, "#8A6138", "WHITE", 15, 2, clear)
-    OD.new_command_button(info_frame, "Search Image", 148, 235, "WHITE", "#C83B48", 12, 1, search)
+    OD.new_command_button(bot_frame, "Save", 0, 10, "WHITE", "#f53864", 15, 2, upload_to_db)
+    OD.new_command_button(bot_frame, "Cancel", 150, 10, "#8A6138", "#f53864", 15, 2, clear)
+    OD.new_command_button(info_frame, "Search Image", 148, 235, "#f53864", "#C83B48", 12, 1, search)
 
     # ------------------ Return Main Loop ------------------ #
     #   prints the current user
