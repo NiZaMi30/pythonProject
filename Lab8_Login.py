@@ -17,7 +17,7 @@ def main():
     OD.new_frame(heading_frame, 50, 30, 1066, 15, "#C8A079")
     OD.new_frame(heading_frame, 50, 230, 1066, 15, "#C8A079")
     OD.new_frame(heading_frame, 0, 250, 1166, 15, "#C8A079")
-    OD.new_label_title(heading_frame, "ORATRICE MECANIQUE \nD'ANALYSE CARDINALE", 583, 130)
+    OD.new_label_title(heading_frame, "FOCALOR RESEARCH \nINSTITUTE", 583, 130)
 
     # ------------------ Basic Info ------------------ #
     username = OD.new_label_entry_3(content_frame, "Username:", 400, 50, 35)
