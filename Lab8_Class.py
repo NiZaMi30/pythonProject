@@ -9,6 +9,8 @@ hoyo_font = "HYWenHei 85W"
 # hoyo_font = "Verdana"       #uncomment if font is not installed
 
 
+
+# sarap mag edit pag parang vscode
 # --------------------------------------- OOP Class ----------------------- #
 class OopDesign:
     def __init__(self):
