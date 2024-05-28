@@ -2,7 +2,7 @@ from Lab8_Class import *
 import sqlite3
 OD = OopDesign()
 
-
+# try lang
 def main(user):
     # ------------------------------------- Window Initialization with Scrollbar:------------------------------------ #
     window, sub_frame = window_startup("Lab8_D", "1366x768")
