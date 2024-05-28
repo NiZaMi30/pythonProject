@@ -5,7 +5,7 @@ from Lab8_D import main_call as lab_d
 from Lab8_AdminPage import main_call as admin
 #   This comment was added to test GitHub Push Feature
 #   This comment was added to test Github Pull
-
+# nakikita nyo - Gab
 
 def admin_loop(info):
     while True:
